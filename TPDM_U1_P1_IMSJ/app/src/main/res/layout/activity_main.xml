@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#02B491"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi album familiar"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#020F3D"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:stretchColumns="0"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:layout_marginBottom="10dp">
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/kelly"
+                    android:id="@+id/kelly"/>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/familia"
+                    android:id="@+id/familia"/>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/mama"
+                    android:id="@+id/mama"/>
+            </TableRow>
+            <TableRow android:layout_marginBottom="10dp">
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/brayan"
+                    android:id="@+id/brayan"/>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/mamalute"
+                    android:id="@+id/mamalute"/>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/tialaura"
+                    android:id="@+id/tialaura"/>
+            </TableRow>
+            <TableRow android:layout_marginBottom="10dp">
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/kuri"
+                    android:id="@+id/kuri"/>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/jona"
+                    android:id="@+id/jona"/>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/betza"
+                    android:id="@+id/betza"/>
+            </TableRow>
+            <TableRow android:layout_marginBottom="10dp">
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/papa"
+                    android:id="@+id/papa"/>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/hermanita"
+                    android:id="@+id/hermanita"/>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/kuriblanca"
+                    android:id="@+id/kuriblanca"/>
+            </TableRow>
+            <TableRow>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/poke"
+                    android:id="@+id/poke"/>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/yo"
+                    android:id="@+id/yo"/>
+                <ImageView android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/tias"
+                    android:id="@+id/tias"/>
+            </TableRow>
+            <TableRow>
+            <ImageView android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/primos"
+                android:id="@+id/primos"/>
+            <ImageView android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/tios"
+                android:id="@+id/tios"/>
+            <ImageView android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/aline"
+                android:id="@+id/aline"/>
+        </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
